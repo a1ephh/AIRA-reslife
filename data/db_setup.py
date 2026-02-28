@@ -22,7 +22,7 @@ def setup_database():
  
             role TEXT,
                    
-            semester_joined TEXT CHECK(semester_joined IN ('S23','F24', 'S25', 'F25', 'S26', 'F26')),
+            semester_joined TEXT CHECK(semester_joined IN ('S23', 'S24','F24', 'S25', 'F25', 'S26', 'F26')),
                    
             not_available TEXT,
             

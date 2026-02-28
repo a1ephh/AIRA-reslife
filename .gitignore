@@ -10,6 +10,11 @@ __pycache__/
 *.so
 .DS_Store
 .vscode/
+past_programs.csv
+RA_data.csv
+
+data/aria_main.db
+
 
 # Distribution / packaging
 .Python
